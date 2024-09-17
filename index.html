@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70fc8f03c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <P style="color: black;">Web Developer</P>
+                <h1>Hi, I'm <span>Olanrewaju</span><br>Akintola</h1>
+                <p style="color: black;">Welcome to my portfolio! I specialize in web and app development, creating innovative solutions that drive results. Explore my work to see how I can help bring your ideas to life.</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Results-driven Computer Science Graduate with hands-on experience in web development and web design.
+                        Proven success in optimising web functionalities, improving user experience, and implementing efficient
+                        workflows. Experienced in front-end technologies including HTML, CSS, and JavaScript, as well as back-end
+                        development with Python. Gained practical experience with machine learning through academic projects,
+                        including analysing complex datasets and designing effective models. Enthusiastic about AI and committed to
+                        contributing to innovative web solutions through design, testing, and maintenance. Known for strong
+                        teamwork and exceptional interpersonal skills.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span><br></li>
+                                <li><span>CSS</span><br></li>
+                                <li><span>JAVASCRIPT</span><br></li>
+                                <li><span>PYTHON</span><br></li>
+                                <li><span>MYSQL</span><br></li>
+                                <li><span>JAVA</span><br></li>
+                                <li><span>FIGMA</span><br></li>
+                                <li><span>GIT</span><br></li>
+                                <li><span>Web Development</span><br>Designing Website from scratch</li>
+                                <li><span>App Development</span><br>Building Android App using JAVA</li>
+                                <li><span>Machine Learning</span><br>Analysing Complex datasets and designing effective models</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>December 2022 - Current</span><br>Website design volunteer at Life Beacon International</li>
+                                <li><span>February 2022 - June 2022</span><br>Web Development Intern at Legal digital Nigeria</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>September 2022 - June 2024</span><br>Bachelor of Science: Computer Science  <br> Nottingham Trent University<br>Second Class Honours (First Division) </li>
+                                <li><span>September 2012 - July 2018</span><br>STEM Student at Dansol High school<br>Senior School Certificate (SSCE)</li>
+                                
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <P>I offer comprehensive web design services focused on creating custom, visually appealing, and user-friendly websites. My approach involves crafting personalized layouts using unique fonts, colors, and graphics with tools like Adobe Photoshop, Illustrator, and Figma, ensuring that the design aligns with the client’s vision. I specialize in responsive design, optimizing websites to perform seamlessly across all devices, from desktops to smartphones. To improve visibility and drive organic traffic, I implement effective SEO strategies, optimizing content and site structure for better search engine rankings.
+
+                        In addition, I prioritize user experience (UX) and user interface (UI) design, creating intuitive and accessible websites that are easy to navigate and visually pleasing. I follow WCAG standards to ensure accessibility for users with disabilities. Rigorous testing and debugging processes guarantee cross-browser compatibility and functionality. I use Agile methodologies, working iteratively to incorporate continuous client feedback and ensure timely project delivery. Moreover, I offer training sessions to equip teams with web design skills and provide ongoing support and maintenance to keep websites secure and up to date.</P>
+                     <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                        <h2>Web Development</h2>
+                        <P>I offer comprehensive web development services designed to create seamless and engaging user experiences. From custom website development using the latest technologies to responsive designs that ensure optimal performance across all devices, I handle every aspect of an online presence. I also specialize in building secure and scalable e-commerce platforms with features like inventory management and payment gateways. With CMS integration, content management is streamlined through platforms such as WordPress or custom solutions, while incorporating SEO best practices to boost visibility in search engines. Additionally, I provide ongoing maintenance and support to keep websites running smoothly, ensuring they remain fast, secure, and optimized for performance. The focus is on delivering solutions that enhance website functionality and contribute to business growth</P>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                            <h2>App Development</h2>
+                            <P>I offer specialized Android app development services using Java, a powerful and reliable language for building robust applications. Leveraging Java’s extensive ecosystem, I develop high-performance Android apps that deliver exceptional user experiences. From concept and design through to development, testing, and deployment, I manage the entire process to ensure your app functions seamlessly across all Android devices. My services include integrating essential features, optimizing performance for speed and efficiency, and providing ongoing support and maintenance. My goal is to create innovative and reliable Android applications that meet your specific needs and contribute to your business success</P>
+                             <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/android.jpg" >
+                    <div class="layer">
+                        <h3>Healthcare Appointment App</h3>
+                        <p>Healthcare appointment app is designed to simplify and streamline the process of booking medical appointments. With an intuitive interface, patients can easily browse available doctors, select their preferred specialist, and schedule appointments at a time that suits them.</p>
+                        <a href="https://github.com/lanre46/Healthcare-Appointment-Mobile-App"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/engines.jpg" >
+                    <div class="layer">
+                        <h3>Predictive Maintenance of Engines using AI</h3>
+                        <p>This project focused on preprocessing engine data and training 1D CNN, LSTM, RNN, and GRU models. I evaluated the models using accuracy, precision, recall, and F1-score, and documented the neural network design and implementation</p>
+                        <a href="https://github.com/lanre46/Predictive-maintenance-of-engines-using-AI"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/plane.webp" >
+                    <!-- Remove incorrect closing of the .layer div and properly enclose the content inside -->
+                    <div class="layer">
+                        <h3>Trip Planner App</h3>
+                        <p>This project used Flask in Python to deploy RESTful APIs on Azure. Key features included trip queries, weather-based proposals, and secure authentication. It integrated external services and underwent thorough testing.</p>
+                        <a href="https://github.com/lanre46/Travel-buddy-web-application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div> <!-- Correct closing for the .layer div -->
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!----------contact--------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>lanre.akintola1@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>07776814551</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/olanrewaju-akintola/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/lanre46"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/AKINTOLA_OCV2024 (1).pdf"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Olanrewaju. Made by Olanrewaju Akintola</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzTrKXk20XvacZePVFdOFpxdxbprtVXchdgdXqGSugnJ5cxujoEhfeE-IG86o4_6tbk1A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
